@@ -1,0 +1,22 @@
+{
+  "name": "autobuild",
+  "version": "1.0.0",
+  "description": "Todo list demoing autobuild",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Howard",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.3",
+    "jquery": "^3.3.1",
+    "mongoose": "^5.0.11"
+  },
+  "engines": {
+    "node": ">=4.3.2"
+  }
+}
