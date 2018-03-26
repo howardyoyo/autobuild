@@ -23,22 +23,16 @@ Todo lists wouldn't be very effective if you couldn't add new items to them.
 # actually does) to the expected outcome (what the step says the system is supposed to do).
 
 Scenario: Add an item
-Given Webpage has loaded
-And Textbox entry is visible
+Given Textbox is visible
 And Add button is visible
 When User enters text into Textbox
 And left clicks on Add item button
 Then Text entered into textbox is now added to bottom of list
 And textbox is now empty
 
-Scenario: Retain added items after page reload/close
-Given Webpage has loaded
-And there are items on the todo list
-When Close/reload the webpage
-Then All previous items listed should still be there
 
 Scenario: The right things happening when pressing Add with an empty field (error message, nothing added to the list)
-Given Webpage has loaded
+Given Webpage is ready
 When textbox is empty
 And User left clicks on Add item button
 Then error message appears telling user to write something
