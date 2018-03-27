@@ -2,7 +2,7 @@ const { Given, When, Then } = require('cucumber');
 const { expect } = require('chai');
 const assert = require('assert');
 const jquery = require('jquery');
-const cuke = require('selenium-cucumber-js');
+const selcuke = require('selenium-cucumber-js');
 
 const jsdom = require("jsdom");
 
