@@ -11,6 +11,7 @@ const jsdom = require("jsdom");
 //1) Scenario: Add an item # features/bdd-cucumber-tests.feature:25
   
          Given('Textbox is visible', function () {
+           
          });
 
          Given('Add button is visible', function () {
