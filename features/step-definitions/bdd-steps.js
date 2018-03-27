@@ -8,12 +8,15 @@ const jsdom = require("jsdom");
 //no window with a document exists in node, so has to be mocked by jsdom.
 
 
+
 //1) Scenario: Add an item # features/bdd-cucumber-tests.feature:25
   
          Given('Textbox is visible', function () {
+           
          });
 
          Given('Add button is visible', function () {
+
          });
 
          When('User enters text into Textbox', function () {
