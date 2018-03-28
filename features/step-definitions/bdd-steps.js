@@ -34,7 +34,7 @@ const jsdom = require("jsdom");
 
 //2) Scenario: The right things happening when pressing Add with an empty field (error message, nothing added to the list) # features/bdd-cucumber-tests.feature:40
  
-         Given('Webpage is ready', function () {;
+         Given('Webpage is ready', function () {
          });
 
          When('textbox is empty', function () {
